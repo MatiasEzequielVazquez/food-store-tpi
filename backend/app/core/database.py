@@ -20,4 +20,10 @@ def utc_now() -> datetime:
 
 
 def create_all_tables() -> None:
+    # Se importan los modelos para registrarlos en la metadata antes de crear las tablas.
+    from app.modules.categorias import models as _categorias  # noqa: F401
+    from app.modules.pedidos import models as _pedidos  # noqa: F401
+    from app.modules.productos import models as _productos  # noqa: F401
+    from app.modules.usuarios import models as _usuarios  # noqa: F401
+
     SQLModel.metadata.create_all(engine)
