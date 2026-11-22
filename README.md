@@ -3,7 +3,7 @@
 Trabajo Práctico Integrador de Programación 4: sistema de pedidos de comida con backend FastAPI + SQLModel + PostgreSQL y frontend React + TypeScript.
 
 - Repositorio: https://github.com/MatiasEzequielVazquez/food-store-tpi
-- Video de demostración: PENDIENTE
+- Video de demostración: [Link_al_video](https://drive.google.com/file/d/1XW8kV1ccNADLLfYRuNzPktONh7-IaKsA/view?usp=drive_link)
 
 ## Requisitos
 
